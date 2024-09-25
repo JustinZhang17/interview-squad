@@ -13,8 +13,10 @@ class Graph {
         this.parse_matrix(adj_matrix);
     }
 
-    public void add_node(Node n) {
-        
+    public void add_node(rowNum, row) {
+        private List<Integer> adjacent_nodes;
+        if ()
+        Node n = new node(rowNum, row);
     }
 
     /**
@@ -27,9 +29,7 @@ class Graph {
     public void parse_matrix(int[][] adj_matrix) {
         int adjLen = adj_matrix.length;
         for (int i=0; i< adjLen; i++){
-            for (int j=0; j< j; j++){
-                
-            }
+             add_node(i, adj_matrix[i]);
         }
         
     }
